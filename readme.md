@@ -1,6 +1,25 @@
-## My-Express-BoilerPlate
+## Request-Header-Parser-Microservice
 
-My-Express-BoilerPlate
+### Deployed on Heroku [DEMO](https://headerParser-yuchiu.herokuapp.com/)
+
+### User Story
+
+-  I can get the IP address, language and operating system for my browser.
+
+#### Example output:
+
+```
+
+{
+    "ipaddress": {
+        "clientIp": "::1",
+        "clientIpRoutable": false
+    },
+    "language": "en-US",
+    "software": "Windows NT 10.0; Win64; x64"
+}
+
+``` 
 
 *****************************************************
 

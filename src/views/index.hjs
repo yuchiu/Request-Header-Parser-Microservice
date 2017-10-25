@@ -8,8 +8,26 @@
 <body>
     <div class="container">
         <h1 class="header">
-            My-Express-BoilerPlate
+            Request Header Parser Microservice
         </h1>
+        <blockquote>
+            User story:
+            <ul>1)  I can get the IP address, language and operating system for my browser.</ul>
+        </blockquote>
+        
+        <h3>Example usage:</h3>
+        <code>https://headerParser-yuchiu.herokuapp.com/whoami</code>
+        <h3>Example output:</h3>
+        <code>
+            {
+                "ipaddress": {
+                    "clientIp": "::1",
+                    "clientIpRoutable": false
+                },
+                "language": "en-US",
+                "software": "Windows NT 10.0; Win64; x64"
+            }
+        </code>
     </div>
 </body>
 
