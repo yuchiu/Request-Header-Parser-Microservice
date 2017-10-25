@@ -10,24 +10,25 @@
         <h1 class="header">
             Request Header Parser Microservice
         </h1>
+        <p class="lead">View code on <a href="https://github.com/yuchiu/Request-Header-Parser-Microservice">github</a></p> 
         <blockquote>
             User story:
             <ul>1)  I can get the IP address, language and operating system for my browser.</ul>
         </blockquote>
         
         <h3>Example usage:</h3>
-        <a href="https://headerParser-yuchiu.herokuapp.com/whoami">Click me!</a></br>        
-        <code>https://headerParser-yuchiu.herokuapp.com/whoami</code>
+        <a href="https://headerParser-yuchiu.herokuapp.com/whoami">https://headerParser-yuchiu.herokuapp.com/whoami</a></br>
+        
         <h3>Example output:</h3>
         <code>
-            {
-                "ipaddress": {
-                    "clientIp": "::1",
-                    "clientIpRoutable": false
-                },
-                "language": "en-US",
-                "software": "Windows NT 10.0; Win64; x64"
-            }
+            {</br>  
+                "ipaddress": {</br>  
+                    "clientIp": "::1",</br>  
+                    "clientIpRoutable": false</br>  
+                },</br>  
+                "language": "en-US",</br>  
+                "software": "Windows NT 10.0; Win64; x64"</br>  
+            }</br>  
         </code>
     </div>
 </body>
