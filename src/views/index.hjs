@@ -16,6 +16,7 @@
         </blockquote>
         
         <h3>Example usage:</h3>
+        <a href="https://headerParser-yuchiu.herokuapp.com/whoami">Click me!</a></br>        
         <code>https://headerParser-yuchiu.herokuapp.com/whoami</code>
         <h3>Example output:</h3>
         <code>
